@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "AntiQuant",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.reddit.com/r/wallstreetbets/",
+        "https://www.reddit.com/r/wallstreetbets/submit",
+        "https://www.reddit.com/r/wallstreetbets/comments/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": { "128": "128.png" }
+}
